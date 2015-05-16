@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.4 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=CU.map -O1 --gc-sections -lm -lgcc -lc -lnosys -LC:\CooCox\CoIDE\configuration\ProgramData\CU -TC:\CooCox\CoIDE\configuration\ProgramData\CU/arm-gcc-link.ld -g">
+      <target file="CU.elf" lastModified="14d550ce891">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="14d545c3363"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="14d545c36aa"/>
+         <source file="..\obj\GlobalInit.o" lastModified="14d5491858e"/>
+         <source file="..\obj\pumps.o" lastModified="14d545f1558"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="14d545c39e6"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="14d545c3b05"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="14d545c3c07"/>
+         <source file="..\obj\selector.o" lastModified="14d545c3d0a"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14d545c3e72"/>
+         <source file="..\obj\main.o" lastModified="14d550ce478"/>
+         <source file="..\obj\programs_data.o" lastModified="14d5504eb71"/>
+         <source file="..\obj\printf.o" lastModified="14d545c4307"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14d545c44fb"/>
+         <source file="..\obj\motor.o" lastModified="14d5504ec9c"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="14d545c47d4"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="14d545c4992"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="14d545c4b30"/>
+         <source file="..\obj\heater.o" lastModified="14d545f1a1d"/>
+         <source file="..\obj\syscalls.o" lastModified="14d545c4d5e"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="14d545c4f18"/>
+         <source file="..\obj\stm32f10x_it.o" lastModified="14d550ce5c3"/>
+         <source file="..\obj\debug.o" lastModified="14d545f1cfd"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="14d545c5301"/>
+         <source file="..\obj\misc.o" lastModified="14d545c53f5"/>
+         <source file="..\obj\systick.o" lastModified="14d545c54d9"/>
+         <source file="..\obj\stm32f10x_systick.o" lastModified="14d545c55bc"/>
+         <source file="..\obj\Program.o" lastModified="14d545f1e41"/>
+      </target>
+   </processor>
+</history>

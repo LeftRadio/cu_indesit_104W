@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBlocks_project_file>
+	<EmBlocksVersion release="2.30" revision="1" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="CU" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="CU">
+				<Option output=".\CU.elf" />
+				<Option type="0" />
+				<Option create_hex="1" />
+				<Option compiler="armgcc_eb" />
+				<Device>
+					<Add option="$device=cortex-m3" />
+					<Add option="$lscript=.\CU.ld" />
+				</Device>
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-ffunction-sections" />
+					<Add option="-O1" />
+					<Add option="-funsigned-char" />
+					<Add option="-DSTM32F100RB" />
+					<Add option="-DSTM32F10X_MD_VL" />
+					<Add option="-DUSE_STDPERIPH_DRIVER" />
+					<Add option="-D__ASSEMBLY__" />
+					<Add directory="." />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="stm_lib\inc" />
+			<Add directory="cmsis" />
+			<Add directory="cmsis_boot" />
+			<Add directory="SysTick" />
+		</Compiler>
+		<Unit filename="GlobalInit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GlobalInit.h" />
+		<Unit filename="Program.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Program.h" />
+		<Unit filename="SysTick\stm32f10x_systick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SysTick\stm32f10x_systick.h" />
+		<Unit filename="SysTick\systick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SysTick\systick.h" />
+		<Unit filename="cmsis\core_cm3.h" />
+		<Unit filename="cmsis\core_cmFunc.h" />
+		<Unit filename="cmsis\core_cmInstr.h" />
+		<Unit filename="cmsis_boot\startup\startup_stm32f10x_md_vl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmsis_boot\stm32f10x.h" />
+		<Unit filename="cmsis_boot\stm32f10x_conf.h" />
+		<Unit filename="cmsis_boot\system_stm32f10x.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmsis_boot\system_stm32f10x.h" />
+		<Unit filename="cu_sm_types.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="debug.h" />
+		<Unit filename="heater.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="heater.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="motor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="motor.h" />
+		<Unit filename="programs_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="programs_data.h" />
+		<Unit filename="pumps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pumps.h" />
+		<Unit filename="selector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="selector.h" />
+		<Unit filename="stdio\printf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm32f10x_it.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\inc\misc.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_adc.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_dma.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_exti.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_flash.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_gpio.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_pwr.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_rcc.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_rtc.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_tim.h" />
+		<Unit filename="stm_lib\inc\stm32f10x_usart.h" />
+		<Unit filename="stm_lib\src\misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_dma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_rtc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm_lib\src\stm32f10x_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="syscalls\syscalls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBlocks_project_file>

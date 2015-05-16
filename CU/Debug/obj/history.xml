@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Projects\ARM\CU\SysTick -I..\..\..\..\..\Projects\ARM\CU\stm_lib -I..\..\..\..\..\Projects\ARM\CU -I..\..\..\..\..\Projects\ARM\CU\stm_lib\inc -I..\..\..\..\..\Projects\ARM\CU\cmsis_boot -I..\..\..\..\..\Projects\ARM\CU\cmsis -I..\..\..\..\..\Projects\ARM -I..\..\..\..\..\Projects">
+      <target file="pumps.o" lastModified="14d545f1558">
+         <source file="..\..\..\pumps.c" lastModified="14d4d64da4a"/>
+      </target>
+      <target file="selector.o" lastModified="14d545c3d0a">
+         <source file="..\..\..\selector.c" lastModified="14ac15b6042"/>
+      </target>
+      <target file="systick.o" lastModified="14d545c54d9">
+         <source file="..\..\..\SysTick\systick.c" lastModified="14a83bc1ec6"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14d545c44fb">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14a65458cea"/>
+      </target>
+      <target file="stm32f10x_it.o" lastModified="14d550ce5c3">
+         <source file="..\..\..\stm32f10x_it.c" lastModified="14d550cdc9a"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="14d545c3c07">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="14a6545d62d"/>
+      </target>
+      <target file="heater.o" lastModified="14d545f1a1d">
+         <source file="..\..\..\heater.c" lastModified="14afebb5c65"/>
+      </target>
+      <target file="printf.o" lastModified="14d545c4307">
+         <source file="..\..\..\stdio\printf.c" lastModified="14a655f1ee0"/>
+      </target>
+      <target file="misc.o" lastModified="14d545c53f5">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="14a65468486"/>
+      </target>
+      <target file="stm32f10x_systick.o" lastModified="14d545c55bc">
+         <source file="..\..\..\SysTick\stm32f10x_systick.c" lastModified="12c01d46171"/>
+      </target>
+      <target file="motor.o" lastModified="14d5504ec9c">
+         <source file="..\..\..\motor.c" lastModified="14d5504e3fc"/>
+      </target>
+      <target file="debug.o" lastModified="14d545f1cfd">
+         <source file="..\..\..\debug.c" lastModified="14d4efe93ac"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="14d545c4f18">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14a6545f7cb"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14d545c3e72">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14a65459f99"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="14d545c3363">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="14a6545d594"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="14d545c47d4">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14a6545aff0"/>
+      </target>
+      <target file="programs_data.o" lastModified="14d5504eb71">
+         <source file="..\..\..\programs_data.c" lastModified="14d5504e420"/>
+      </target>
+      <target file="Program.o" lastModified="14d545f1e41">
+         <source file="..\..\..\Program.c" lastModified="14d4efe938c"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14d545c3b05">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14ace2b5069"/>
+      </target>
+      <target file="syscalls.o" lastModified="14d545c4d5e">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14a655f1b24"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="14d545c4992">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="14a654647ca"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="14d545c36aa">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="14a65464701"/>
+      </target>
+      <target file="GlobalInit.o" lastModified="14d5491858e">
+         <source file="..\..\..\GlobalInit.c" lastModified="14d54917dab"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="14d545c5301">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14a90116993"/>
+      </target>
+      <target file="startup_stm32f10x_md_vl.o" lastModified="14d545c39e6">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="14a6545746a"/>
+      </target>
+      <target file="main.o" lastModified="14d550ce478">
+         <source file="..\..\..\main.c" lastModified="14d550cdc5c"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="14d545c4b30">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14a654664b9"/>
+      </target>
+   </processor>
+</history>

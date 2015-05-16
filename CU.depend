@@ -1,0 +1,458 @@
+# depslib dependency file v1.0
+1288520884 source:d:\projects\cu\systick\stm32f10x_systick.c
+	"stm32f10x_systick.h"
+
+1288520833 d:\projects\cu\systick\stm32f10x_systick.h
+	"stm32f10x.h"
+
+1419038848 d:\projects\cu\cmsis_boot\stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1419038255 d:\projects\cu\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1419038255 d:\projects\cu\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1419038255 d:\projects\cu\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1419038258 d:\projects\cu\cmsis_boot\system_stm32f10x.h
+
+1419756281 d:\projects\cu\cmsis_boot\stm32f10x_conf.h
+	"stm32f10x_adc.h"
+	"stm32f10x_dma.h"
+	"stm32f10x_exti.h"
+	"stm32f10x_flash.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_rtc.h"
+	"stm32f10x_tim.h"
+	"stm32f10x_usart.h"
+	"misc.h"
+
+1419038312 d:\projects\cu\stm_lib\inc\stm32f10x_adc.h
+	"stm32f10x.h"
+
+1419756267 d:\projects\cu\stm_lib\inc\stm32f10x_dma.h
+	"stm32f10x.h"
+
+1419038273 d:\projects\cu\stm_lib\inc\stm32f10x_exti.h
+	"stm32f10x.h"
+
+1419038291 d:\projects\cu\stm_lib\inc\stm32f10x_flash.h
+	"stm32f10x.h"
+
+1419038269 d:\projects\cu\stm_lib\inc\stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1419038283 d:\projects\cu\stm_lib\inc\stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1419038264 d:\projects\cu\stm_lib\inc\stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1419038283 d:\projects\cu\stm_lib\inc\stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1419038312 d:\projects\cu\stm_lib\inc\stm32f10x_tim.h
+	"stm32f10x.h"
+
+1419038319 d:\projects\cu\stm_lib\inc\stm32f10x_usart.h
+	"stm32f10x.h"
+
+1419038327 d:\projects\cu\stm_lib\inc\misc.h
+	"stm32f10x.h"
+
+1419549351 source:d:\projects\cu\systick\systick.c
+	"systick.h"
+	"stm32f10x_systick.h"
+
+1288597192 d:\projects\cu\systick\systick.h
+	"stm32f10x.h"
+
+1419038258 source:d:\projects\cu\cmsis_boot\startup\startup_stm32f10x_md_vl.c
+
+1419038258 source:d:\projects\cu\cmsis_boot\system_stm32f10x.c
+	"stm32f10x.h"
+
+1420546458 source:d:\projects\cu\debug.c
+	<string.h>
+	"GlobalInit.h"
+	"Program.h"
+	"motor.h"
+	"debug.h"
+
+1420718218 d:\projects\cu\program.h
+	<stdint.h>
+	"cu_sm_types.h"
+	"motor.h"
+	"pumps.h"
+	"heater.h"
+	"selector.h"
+	"programs_data.h"
+	"systick.h"
+	"debug.h"
+
+1420716927 d:\projects\cu\motor.h
+	"cu_sm_types.h"
+
+1419546938 d:\projects\cu\debug.h
+
+1420718042 source:d:\projects\cu\heater.c
+	<string.h>
+	"GlobalInit.h"
+	"heater.h"
+	"debug.h"
+	"systick.h"
+
+1420581909 d:\projects\cu\globalinit.h
+	"stm32f10x.h"
+
+1420717159 d:\projects\cu\heater.h
+	"Program.h"
+	"cu_sm_types.h"
+
+1420350414 source:d:\projects\cu\motor.c
+	<string.h>
+	"motor.h"
+	"GlobalInit.h"
+	"debug.h"
+	"systick.h"
+
+1420606074 source:d:\projects\cu\programs_data.c
+	"programs_data.h"
+	"Program.h"
+	"selector.h"
+
+1420222050 d:\projects\cu\programs_data.h
+	"stm32f10x.h"
+	"Program.h"
+
+1420716968 d:\projects\cu\selector.h
+	"cu_sm_types.h"
+
+1420717545 source:d:\projects\cu\pumps.c
+	<string.h>
+	"pumps.h"
+	"debug.h"
+	"systick.h"
+
+1420717171 d:\projects\cu\pumps.h
+	"cu_sm_types.h"
+	"Program.h"
+
+1420583198 source:d:\projects\cu\selector.c
+	"selector.h"
+	"GlobalInit.h"
+
+1419039940 source:d:\projects\cu\stdio\printf.c
+	<stdio.h>
+	<stdarg.h>
+
+1420625765 source:d:\projects\cu\stm32f10x_it.c
+	"GlobalInit.h"
+	"motor.h"
+	"heater.h"
+	"debug.h"
+	"systick.h"
+
+1419038327 source:d:\projects\cu\stm_lib\src\misc.c
+	"misc.h"
+
+1419038312 source:d:\projects\cu\stm_lib\src\stm32f10x_adc.c
+	"stm32f10x_adc.h"
+	"stm32f10x_rcc.h"
+
+1419756267 source:d:\projects\cu\stm_lib\src\stm32f10x_dma.c
+	"stm32f10x_dma.h"
+	"stm32f10x_rcc.h"
+
+1419038273 source:d:\projects\cu\stm_lib\src\stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1419038291 source:d:\projects\cu\stm_lib\src\stm32f10x_flash.c
+	"stm32f10x_flash.h"
+
+1419038269 source:d:\projects\cu\stm_lib\src\stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1419038283 source:d:\projects\cu\stm_lib\src\stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1419038264 source:d:\projects\cu\stm_lib\src\stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1419038283 source:d:\projects\cu\stm_lib\src\stm32f10x_rtc.c
+	"stm32f10x_rtc.h"
+
+1419038312 source:d:\projects\cu\stm_lib\src\stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1419038319 source:d:\projects\cu\stm_lib\src\stm32f10x_usart.c
+	"stm32f10x_usart.h"
+	"stm32f10x_rcc.h"
+
+1419039939 source:d:\projects\cu\syscalls\syscalls.c
+	<stdio.h>
+	<stdarg.h>
+	<sys/types.h>
+	<sys/stat.h>
+
+1420718239 source:d:\projects\cu\globalinit.c
+	"GlobalInit.h"
+	"Program.h"
+
+1420718218 source:d:\projects\cu\program.c
+	"GlobalInit.h"
+	"Program.h"
+
+1420717479 source:d:\projects\cu\main.c
+	"stm32f10x.h"
+	"GlobalInit.h"
+	"Program.h"
+
+1420804186 source:c:\projects\arm\cu\globalinit.c
+	"GlobalInit.h"
+	"motor.h"
+	"pumps.h"
+	"heater.h"
+	"selector.h"
+
+1419042448 c:\projects\arm\cu\cmsis_boot\stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1419041855 c:\projects\arm\cu\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1419041855 c:\projects\arm\cu\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1419041855 c:\projects\arm\cu\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1419041858 c:\projects\arm\cu\cmsis_boot\system_stm32f10x.h
+
+1419759881 c:\projects\arm\cu\cmsis_boot\stm32f10x_conf.h
+	"stm32f10x_adc.h"
+	"stm32f10x_dma.h"
+	"stm32f10x_exti.h"
+	"stm32f10x_flash.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_rtc.h"
+	"stm32f10x_tim.h"
+	"stm32f10x_usart.h"
+	"misc.h"
+
+1419041912 c:\projects\arm\cu\stm_lib\inc\stm32f10x_adc.h
+	"stm32f10x.h"
+
+1419759867 c:\projects\arm\cu\stm_lib\inc\stm32f10x_dma.h
+	"stm32f10x.h"
+
+1419041873 c:\projects\arm\cu\stm_lib\inc\stm32f10x_exti.h
+	"stm32f10x.h"
+
+1419041891 c:\projects\arm\cu\stm_lib\inc\stm32f10x_flash.h
+	"stm32f10x.h"
+
+1419041869 c:\projects\arm\cu\stm_lib\inc\stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1419041883 c:\projects\arm\cu\stm_lib\inc\stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1419041864 c:\projects\arm\cu\stm_lib\inc\stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1419041883 c:\projects\arm\cu\stm_lib\inc\stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1419041912 c:\projects\arm\cu\stm_lib\inc\stm32f10x_tim.h
+	"stm32f10x.h"
+
+1419041919 c:\projects\arm\cu\stm_lib\inc\stm32f10x_usart.h
+	"stm32f10x.h"
+
+1419041927 c:\projects\arm\cu\stm_lib\inc\misc.h
+	"stm32f10x.h"
+
+1420800222 c:\projects\arm\cu\globalinit.h
+	"stm32f10x.h"
+
+1421598530 c:\projects\arm\cu\motor.h
+	"cu_sm_types.h"
+
+1420808625 c:\projects\arm\cu\program.h
+	<stdint.h>
+	"cu_sm_types.h"
+	"motor.h"
+	"pumps.h"
+	"heater.h"
+	"selector.h"
+	"programs_data.h"
+	"systick.h"
+	"debug.h"
+
+1421612589 c:\projects\arm\cu\pumps.h
+	"cu_sm_types.h"
+	"Program.h"
+
+1420720759 c:\projects\arm\cu\heater.h
+	"Program.h"
+	"cu_sm_types.h"
+
+1420720568 c:\projects\arm\cu\selector.h
+	"cu_sm_types.h"
+
+1420808648 source:c:\projects\arm\cu\program.c
+	"GlobalInit.h"
+	"Program.h"
+
+1420225650 c:\projects\arm\cu\programs_data.h
+	"stm32f10x.h"
+	"Program.h"
+
+1288600792 c:\projects\arm\cu\systick\systick.h
+	"stm32f10x.h"
+
+1419550538 c:\projects\arm\cu\debug.h
+
+1288524484 source:c:\projects\arm\cu\systick\stm32f10x_systick.c
+	"stm32f10x_systick.h"
+
+1288524433 c:\projects\arm\cu\systick\stm32f10x_systick.h
+	"stm32f10x.h"
+
+1419552951 source:c:\projects\arm\cu\systick\systick.c
+	"systick.h"
+	"stm32f10x_systick.h"
+
+1419041858 source:c:\projects\arm\cu\cmsis_boot\startup\startup_stm32f10x_md_vl.c
+
+1425400564 source:c:\projects\arm\cu\debug.c
+	<string.h>
+	"GlobalInit.h"
+	"Program.h"
+	"motor.h"
+	"debug.h"
+
+1421616499 source:c:\projects\arm\cu\heater.c
+	<string.h>
+	"GlobalInit.h"
+	"heater.h"
+	"debug.h"
+	"systick.h"
+
+1421607212 source:c:\projects\arm\cu\main.c
+	"stm32f10x.h"
+	"GlobalInit.h"
+	"Program.h"
+
+1429207321 source:c:\projects\arm\cu\motor.c
+	<string.h>
+	"motor.h"
+	"GlobalInit.h"
+	"debug.h"
+	"systick.h"
+
+1422093398 source:c:\projects\arm\cu\pumps.c
+	<string.h>
+	"pumps.h"
+	"debug.h"
+	"systick.h"
+
+1420586798 source:c:\projects\arm\cu\selector.c
+	"selector.h"
+	"GlobalInit.h"
+
+1419043540 source:c:\projects\arm\cu\stdio\printf.c
+	<stdio.h>
+	<stdarg.h>
+
+1420629365 source:c:\projects\arm\cu\stm32f10x_it.c
+	"GlobalInit.h"
+	"motor.h"
+	"heater.h"
+	"debug.h"
+	"systick.h"
+
+1419041927 source:c:\projects\arm\cu\stm_lib\src\misc.c
+	"misc.h"
+
+1419041912 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_adc.c
+	"stm32f10x_adc.h"
+	"stm32f10x_rcc.h"
+
+1419759867 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_dma.c
+	"stm32f10x_dma.h"
+	"stm32f10x_rcc.h"
+
+1419041873 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1419041891 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_flash.c
+	"stm32f10x_flash.h"
+
+1419041869 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1419041883 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1419041864 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1419041883 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_rtc.c
+	"stm32f10x_rtc.h"
+
+1419041912 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1419041919 source:c:\projects\arm\cu\stm_lib\src\stm32f10x_usart.c
+	"stm32f10x_usart.h"
+	"stm32f10x_rcc.h"
+
+1419043539 source:c:\projects\arm\cu\syscalls\syscalls.c
+	<stdio.h>
+	<stdarg.h>
+	<sys/types.h>
+	<sys/stat.h>
+
+1429201509 source:c:\projects\arm\cu\programs_data.c
+	"programs_data.h"
+	"Program.h"
+	"selector.h"
+
+1420801752 source:c:\projects\arm\cu\cmsis_boot\system_stm32f10x.c
+	"stm32f10x.h"
+
+1420716897 d:\projects\cu\cu_sm_types.h
+	"stm32f10x.h"
+
+1420720497 c:\projects\arm\cu\cu_sm_types.h
+	"stm32f10x.h"
+

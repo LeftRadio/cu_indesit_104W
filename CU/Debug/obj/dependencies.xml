@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Projects\ARM\CU\SysTick /I..\..\..\..\..\Projects\ARM\CU\stm_lib /I..\..\..\..\..\Projects\ARM\CU /I..\..\..\..\..\Projects\ARM\CU\stm_lib\inc /I..\..\..\..\..\Projects\ARM\CU\cmsis_boot /I..\..\..\..\..\Projects\ARM\CU\cmsis /I..\..\..\..\..\Projects\ARM /I..\..\..\..\..\Projects">
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14a65456cdf">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\motor.h" lastModified="14d545f0ac9">
+         <include file="..\..\..\cu_sm_types.h"/>
+      </source>
+      <source file="..\..\..\selector.h" lastModified="14ac9548afb">
+         <include file="..\..\..\cu_sm_types.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rtc.h" lastModified="14a6545d56d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14a65458caa">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14a6545aff0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\motor.c" lastModified="14d5504e7e4">
+         <include file="..\..\..\motor.h"/>
+         <include file="..\..\..\GlobalInit.h"/>
+         <include file="..\..\..\debug.h"/>
+         <include file="..\..\..\SysTick\systick.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="14a6545d5eb">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14a65459f99">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\selector.c" lastModified="14ac15b6042">
+         <include file="..\..\..\selector.h"/>
+         <include file="..\..\..\GlobalInit.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="14a6545746a">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="14a65464764">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14a654574bc">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14ace2b5069">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="14a90116968">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14a90119cbb">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\Program.h" lastModified="14ace9433a5">
+         <include file="..\..\..\cu_sm_types.h"/>
+         <include file="..\..\..\motor.h"/>
+         <include file="..\..\..\pumps.h"/>
+         <include file="..\..\..\heater.h"/>
+         <include file="..\..\..\selector.h"/>
+         <include file="..\..\..\programs_data.h"/>
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\debug.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="14a65468486">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14a654570ca">
+      </source>
+      <source file="..\..\..\Program.c" lastModified="14d4efe938c">
+         <include file="..\..\..\GlobalInit.h"/>
+         <include file="..\..\..\Program.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14a65466499">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\pumps.h" lastModified="14afe7fb21f">
+         <include file="..\..\..\cu_sm_types.h"/>
+         <include file="..\..\..\Program.h"/>
+      </source>
+      <source file="..\..\..\pumps.c" lastModified="14d4d64de32">
+         <include file="..\..\..\pumps.h"/>
+         <include file="..\..\..\debug.h"/>
+         <include file="..\..\..\SysTick\systick.h"/>
+      </source>
+      <source file="..\..\..\programs_data.h" lastModified="14aabd4aed0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\Program.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="14a65464701">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14a654664b9">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.h" lastModified="12c01d39845">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="14a6545f754">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\programs_data.c" lastModified="14d5504e420">
+         <include file="..\..\..\programs_data.h"/>
+         <include file="..\..\..\Program.h"/>
+         <include file="..\..\..\selector.h"/>
+      </source>
+      <source file="..\..\..\GlobalInit.h" lastModified="14d4fcbd197">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="14a655f26b0">
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="14a65468484">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.c" lastModified="12c01d46171">
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+      </source>
+      <source file="..\..\..\GlobalInit.c" lastModified="14d54917dab">
+         <include file="..\..\..\GlobalInit.h"/>
+         <include file="..\..\..\motor.h"/>
+         <include file="..\..\..\pumps.h"/>
+         <include file="..\..\..\heater.h"/>
+         <include file="..\..\..\selector.h"/>
+      </source>
+      <source file="..\..\..\cu_sm_types.h" lastModified="14ac953764b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="14a655f2ac4">
+      </source>
+      <source file="..\..\..\debug.h" lastModified="14d4efef79c">
+      </source>
+      <source file="..\..\..\main.c" lastModified="14d550ce044">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\GlobalInit.h"/>
+         <include file="..\..\..\Program.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14a654570cc">
+      </source>
+      <source file="..\..\..\debug.c" lastModified="14d4efe9794">
+         <include file="..\..\..\GlobalInit.h"/>
+         <include file="..\..\..\Program.h"/>
+         <include file="..\..\..\motor.h"/>
+         <include file="..\..\..\debug.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14a6545f7cb">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="14a6545d594">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14a65458cea">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="14a654e7a1a">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="14a6545d62d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="14a654647ca">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.h" lastModified="12c0660bf43">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\heater.h" lastModified="14ac9577341">
+         <include file="..\..\..\Program.h"/>
+         <include file="..\..\..\cu_sm_types.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.c" lastModified="14a83bc1ec6">
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14a90116993">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\heater.c" lastModified="14afebb604d">
+         <include file="..\..\..\GlobalInit.h"/>
+         <include file="..\..\..\heater.h"/>
+         <include file="..\..\..\debug.h"/>
+         <include file="..\..\..\SysTick\systick.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="14a6545afed">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14a65459f7b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="14a654646fb">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm32f10x_it.c" lastModified="14d550cdc9a">
+         <include file="..\..\..\GlobalInit.h"/>
+         <include file="..\..\..\motor.h"/>
+         <include file="..\..\..\heater.h"/>
+         <include file="..\..\..\debug.h"/>
+         <include file="..\..\..\SysTick\systick.h"/>
+      </source>
+   </includePath>
+</dependencies>
